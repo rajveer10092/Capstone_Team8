@@ -82,8 +82,8 @@ function Register() {
           
 
           <div className="input-container-adhar">
-            <label htmlFor="fadhar">Aadhar Number</label>
-            <input id="fadhaar" name="email" type="email" placeholder='Enter Email Address' onChange={handleChange} value={data.email} required/>
+            <label htmlFor="femail">Email</label>
+            <input id="femail" name="email" type="email" placeholder='Enter Email Address' onChange={handleChange} value={data.email} required/>
           </div>
           
           <div className="input-container-password">
