@@ -20,11 +20,11 @@ function Navbar() {
         <h3>LOGO</h3>
         <nav ref={navRef}>
           <NavLink to='/'>Home</NavLink>
-          <a href="/aboutus">About Us</a>
-          <NavLink to="/Service">Services</NavLink>
+          <a href="/About">About Us</a>
+          <NavLink to="/Services">Services</NavLink>
           <NavLink to="/Register">Register</NavLink>
           <NavLink to="/Login">Login</NavLink>
-          <button className="button" onClick={handleLogout}  >Logout</button>
+          <button className="button-logout" onClick={handleLogout}  >Logout</button>
           {/* <a href="/Home">Home</a>
           <a href="/#">About Us</a>
           <a href="/#">Services</a>
