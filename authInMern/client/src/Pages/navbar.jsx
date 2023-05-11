@@ -20,7 +20,7 @@ function Navbar() {
         <h3>LOGO</h3>
         <nav ref={navRef}>
           <NavLink to='/'>Home</NavLink>
-          <a href="/About">About Us</a>
+          <NavLink href="/About">About Us</NavLink>
           <NavLink to="/Services">Services</NavLink>
           <NavLink to="/Register">Register</NavLink>
           <NavLink to="/Login">Login</NavLink>
